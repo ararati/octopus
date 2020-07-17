@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Teach me to recognize</string>
+    <string name="action_back">Back</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_save">Save</string>
+    <string name="action_reject">Reject</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_training_mode">Training mode</string>
+    <string name="action_clear_training">Clear training</string>
+    <string name="action_about_author">About author</string>
+</resources>

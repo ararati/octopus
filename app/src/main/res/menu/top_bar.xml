@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/action_back"
+            android:icon="@android:drawable/arrow_down_float"
+            android:title="@string/action_back"
+            android:visible="false"
+            app:showAsAction="always" />
+    <item
+            android:id="@+id/action_redo"
+            android:title="@string/action_redo"
+            android:icon="@android:drawable/arrow_up_float" app:showAsAction="always" android:visible="false"/>
+
+    <item
+            android:id="@+id/action_save"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/action_save"
+            android:visible="false"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_scan"
+            android:icon="@android:drawable/stat_sys_download_done"
+            android:title="@string/action_scan"
+            android:visible="false"
+            app:showAsAction="always" />
+
+    <item
+            android:id="@+id/action_training_mode"
+            android:title="@string/action_training_mode"
+            android:icon="@android:drawable/ic_media_play" app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_clean_training"
+            android:title="@string/action_clear_training"
+            android:icon="@android:drawable/ic_menu_delete" app:showAsAction="collapseActionView"/>
+
+    <item
+            android:id="@+id/action_about_author"
+            android:title="@string/action_about_author"
+            android:icon="@android:drawable/ic_menu_delete" app:showAsAction="collapseActionView"/>
+
+    <item
+            android:id="@+id/action_reject"
+            android:icon="@android:drawable/stat_sys_warning"
+            android:title="@string/action_reject"
+            android:visible="false"
+            app:showAsAction="always" />
+
+
+</menu>
